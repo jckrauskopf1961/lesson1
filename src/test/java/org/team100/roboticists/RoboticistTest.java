@@ -6,9 +6,9 @@ import org.junit.jupiter.api.Test;
 
 public class RoboticistTest {
     @Test
-    void testJoel() {
-        Roboticist joel = new Joel();
-        assertEquals(0, joel.getStudentId());
-        assertEquals(Roboticist.type.MENTOR, joel.getType());
+    void testChip() {
+        Roboticist chip = new Chip();
+        assertEquals(0, chip.getStudentId());
+        assertEquals(Roboticist.type.MENTOR, chip.getType());
     }
 }
